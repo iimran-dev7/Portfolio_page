@@ -1,0 +1,223 @@
+/* style.css */
+
+/* General Reset */
+body, h1, h2, h3, p, section {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f9f4;
+    color: #2c3e50;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #27ae60; /* Green color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);   
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+
+}
+h1,h3{
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+
+/* HR Styling */
+hr {
+    border: none;
+    height: 3px;
+    background: #27ae60; /* Green color */
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+/* Links Styling */
+a {
+    color: #27ae60; /* Green color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Content Containers */
+h1, h2, h3 {
+    color: #1b5e20; /* Dark green color */
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+p {
+    background-color: #e8f5e9;
+    padding: 0px 15px;
+    border-left: 5px solid #27ae60; /* Green color */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Div Styling */
+div {
+    margin-bottom: 10px;
+}
+
+/* Inline JSON Styling */
+section div {
+    background: #e0f2f1;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    color: #004d40; /* Dark green color */
+    margin: 10px 0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Key Skills Section Styling */
+b {
+    color: #1b5e20; /* Dark green color */
+}
+
+section {
+    padding: 10px 15px;
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section Styling */
+footer {
+    background-color: #27ae60; /* Green color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+
+/* General Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    position: center;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer Title Styling */
+footer h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer Link Styling */
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Form Section Styling */
+footer div {
+    margin-bottom: 10px;
+}
+
+footer form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Input Field Styling */
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    width: calc(33.33% - 10px); /* Equal width for fields with gaps */
+    max-width: 300px;
+    padding: 10px;
+    position: center;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Adjust for Small Screens */
+@media (max-width: 768px) {
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+/* Submit Button Styling */
+footer input[type="submit"] {
+    padding: 10px 20px;
+    background-color: white;
+    color: #4CAF50; /* Green text */
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer input[type="submit"]:hover {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+}
+footer {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+/* Media Queries for Touch Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; /* Reduce font size for smaller screens */
+    }
+
+    p {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    section {
+        padding: 8px 10px;
+    }
+    }
