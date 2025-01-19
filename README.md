@@ -7,7 +7,7 @@ Welcome to my GitHub portfolio, where I showcase my journey as a Software Develo
 
 Here’s what you’ll find:
 
-Projects: A collection of my software development projects that demonstrate my skills in [mention specific programming languages, frameworks, or tools you’re proficient in].
+Projects: A collection of my software development projects that demonstrate my skills in [java, python, Html, Css, JavaScript,React.Js,Node.js and etc...].
 
 Education: Insights into my academic background at BCIT, with a focus on Software Development and related coursework.
 
